@@ -1,0 +1,8 @@
+<?xml0 version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="lab3.student" table="student">
+<id name="usn" type="int" column="usn">
+</id>
+<property name="name" type="string" column="name" />
+</class>
+</hibernate-mapping>
