@@ -8,6 +8,7 @@ public class student {
 
 	@Id
 	int usn;
+	String name;
 	public String getName() {
 		return name;
 	}
@@ -20,6 +21,6 @@ public class student {
 	public void setUsn(int usn) {
 		this.usn = usn;
 	}
-	String name;
+	
 	
 }
